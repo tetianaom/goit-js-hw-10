@@ -4,7 +4,6 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { fetchCountries } from './js/fetchCountries';
 
 const DEBOUNCE_DELAY = 300;
-console.log('first');
 
 const search = document.querySelector('#search-box');
 const info = document.querySelector('.country-info');
